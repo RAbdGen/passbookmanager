@@ -1,0 +1,27 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+        testdox="true"
+        colors="true"
+        bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="part1">
+            <directory>tests/part1</directory>
+        </testsuite>
+        <testsuite name="part2">
+            <directory>tests/part2</directory>
+        </testsuite>
+        <testsuite name="part3">
+            <directory>tests/part3</directory>
+        </testsuite>
+        <testsuite name="part4">
+            <directory>tests/part4</directory>
+        </testsuite>
+        <testsuite name="all">
+            <directory>tests/part1</directory>
+            <directory>tests/part2</directory>
+            <directory>tests/part3</directory>
+            <directory>tests/part4</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
